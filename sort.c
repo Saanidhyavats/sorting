@@ -20,9 +20,10 @@ int main() {
         i[b] = c;
       }
     }
-    d=i[b];
-    i[b]=min;
-    min=d;
+    
+    d = i[b];
+    i[b] = min;
+    min = d;
   }
   
   for(b = 0; b < a; b++)
